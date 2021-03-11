@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AE28C3B2-68C6-465D-9EB2-96C648C66707}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Ok__let_s_do_it</RootNamespace>
+    <AssemblyName>Ok, let%27s do it</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>af76d91565140dbde01204f0f434e5ce-pizza.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account.cs" />
+    <Compile Include="Basket.cs" />
+    <Compile Include="Custom Pizza.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="help.cs" />
+    <Compile Include="IngredientPrices.cs" />
+    <Compile Include="Pizza.cs" />
+    <Compile Include="PizzaPrice.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\topbar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dirt-png-18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn-nav.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\topbardark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza-dark.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mama frate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4cb4c043-e72c-49cf-ba90-99bc4e76cd7b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rounded-rectangle-png-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pizza-Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4cb4c043-e72c-49cf-ba90-99bc4e76cd7b %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza-dough-clipart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clipart-images-pizza-19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clipart-images-pizza-191.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Return-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1Blazing.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2Supreme.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3Hawaiian.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4Island.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5SuperSupreme.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6Triple.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7Aloha.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8Beef.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9Chicken.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10ChickenSensation.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\catering-overhead-darkened.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rounded-rectangle-png-31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visa-mastercard-400x-q75.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visa-mastercard-400x-q751.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pizza-Background1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\25.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\175869_preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\topbar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\23123123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %28336%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%291.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%292.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%293.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eb707ae7096cc8df384f1bf87dab547a.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitasdasdled-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rm161-jj-22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2832%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %286%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %287%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %288%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %289%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\topbar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mamafrate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\topbar3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\topbar4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="af76d91565140dbde01204f0f434e5ce-pizza.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
