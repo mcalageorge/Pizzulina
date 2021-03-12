@@ -16,3 +16,12 @@ C:\Users\RimpIIp\source\repos\Pizzas\Ok, let's do it\obj\Debug\Ok__let_s_do_it.P
 C:\Users\RimpIIp\source\repos\Pizzas\Ok, let's do it\obj\Debug\Ok, let's do it.csproj.GenerateResource.cache
 C:\Users\RimpIIp\source\repos\Pizzas\Ok, let's do it\obj\Debug\Ok, let's do it.exe
 C:\Users\RimpIIp\source\repos\Pizzas\Ok, let's do it\obj\Debug\Ok, let's do it.pdb
+C:\Users\RimpIIp\Documents\GitHub\Pizzulina\Pizzas\Ok, let's do it\bin\Debug\Ok, let's do it.exe.config
+C:\Users\RimpIIp\Documents\GitHub\Pizzulina\Pizzas\Ok, let's do it\bin\Debug\Ok, let's do it.exe
+C:\Users\RimpIIp\Documents\GitHub\Pizzulina\Pizzas\Ok, let's do it\bin\Debug\Ok, let's do it.pdb
+C:\Users\RimpIIp\Documents\GitHub\Pizzulina\Pizzas\Ok, let's do it\obj\Debug\Ok, let's do it.csprojAssemblyReference.cache
+C:\Users\RimpIIp\Documents\GitHub\Pizzulina\Pizzas\Ok, let's do it\obj\Debug\Ok__let_s_do_it.Form1.resources
+C:\Users\RimpIIp\Documents\GitHub\Pizzulina\Pizzas\Ok, let's do it\obj\Debug\Ok__let_s_do_it.Properties.Resources.resources
+C:\Users\RimpIIp\Documents\GitHub\Pizzulina\Pizzas\Ok, let's do it\obj\Debug\Ok, let's do it.csproj.GenerateResource.cache
+C:\Users\RimpIIp\Documents\GitHub\Pizzulina\Pizzas\Ok, let's do it\obj\Debug\Ok, let's do it.exe
+C:\Users\RimpIIp\Documents\GitHub\Pizzulina\Pizzas\Ok, let's do it\obj\Debug\Ok, let's do it.pdb
