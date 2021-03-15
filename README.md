@@ -2,6 +2,8 @@
 
 Pizza ordering desktop app 
 
+- Created using C# in Visual Studio
+
 - Fully working login system that saves login info between sessions
 
 - Settings menu
